@@ -28,15 +28,20 @@ The following key bindings do not require you to send the prefix keystroke:
 
 `Alt + Arrow` Resize pane  
 
-`Alt + PageUp` Copy mode and page up  
 `Alt + U` Copy mode
 `Alt + I` Paste  
+
+`Alt + B` Toggle status bar globally
 
 `Alt + 8` Choose a session to attach  
 `Alt + 9` Cycle left through sessions  
 `Alt + 0` Cycle right through sessions  
 
-`Alt + D` Detach  
+`Alt + M` New window
+`Alt + N` Next window
+`Alt + P` Previous window
+`Alt + Q` Swap window left
+`Alt + W` Swap window right
 
 Ubiquitous Tmux
 ----------------
@@ -48,11 +53,3 @@ inside a tmux session.
 so attaching to a remote tmux session (e.g. doing pair programing) can be challenging.
 Running `konsole zsh` or `xterm zsh` (replace with your terminal) spawns a
 terminal without tmux.
-
-Notes
------
-
-The status bar is hidden by default (type `tmux set status` to toggle it)
-because creating windows is not part of my workflow.
-I'd rather open a new tab in my terminal, or a new terminal.
-To me, Tmux is a fix to what my terminal should have builtin.
