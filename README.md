@@ -3,7 +3,7 @@ Installation
 
 To install, run
 
-    git clone git://github.com/nviennot/tmux-config.git ~/.tmux
+    git clone git://github.com/sidnair09/tmux-config.git ~/.tmux
     cd ~/.tmux
     make install
 
